@@ -1,6 +1,7 @@
 wymeditor_filebrowser = function(wym, wdw) {
   // the URL to the Django filebrowser, depends on your URLconf
-  var fb_url = '/admin/filebrowser/';
+  //  var fb_url = '/admin/filebrowser/';
+  var fb_url = '/admin/filebrowser/browse/';
   
   var dlg = jQuery(wdw.document.body);
   if (dlg.hasClass('wym_dialog_image')) {
